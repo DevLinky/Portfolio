@@ -9,23 +9,9 @@ const Section1 = () => {
         <>
             <Navigation />
             <section className="section1">
-                <h1 className="title">DevLinky</h1>
-                {/* <div className="text"><h2>Hi, I'm a freelance developper</h2></div>
-                <Typed
-                    strings={["WEB DEV", "REACT FAN", "GEEK"]}
-                    typeSpeed={70}
-                    backSpeed={70}
-                    backDelay={1000}
-                    loop
-                    smartBackspace
-                    loop >
-                    <input type="text" disabled />
-                </Typed> */}
+                <h1 className="title">DevLinky</h1>              
                 <br />
                 <SocialNetwork />
-                {/* <div className="imageContainer">
-                    <img src={logo} alt="logo" className="logo" />
-                </div> */}
                 <br />
                 <button>CONTACT</button>
                 <TypedMessage />
