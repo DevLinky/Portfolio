@@ -1,0 +1,56 @@
+
+@media only screen and (min-width: 1200px) {
+
+    .nav-container{
+        z-index:101;
+        position:absolute;
+        top:0;
+        right:0;
+        background-color: transparent;
+        // width:100%;
+        // right:0;
+        width: 100%;
+        
+    }
+    li{
+        cursor: pointer;
+        float: right;
+        margin-top:1%;
+        padding:0 2%;
+        // float: right;
+        font-size:2rem;
+        color: whitesmoke;
+        display: inline;
+        // background-color: red;
+    }
+    li:hover{
+        color: $color-1;
+    }
+    }
+    
+    @media only screen and (max-width: 1200px) {
+        .nav-container{
+            z-index:99;
+            position:fixed;
+            bottom:0;
+            left:0;
+            right:0;
+            background-color: $color-2;
+            margin: 0 auto;       
+        }
+        ul{
+            margin:0 auto;
+            width:100%;
+            text-align:center;
+        }
+        li{
+            cursor: pointer;
+            // margin:auto;
+            padding:0 2%;
+            // float: right;
+            font-size:2rem;
+            color: whitesmoke;
+            display: inline;
+            // background-color: red;
+        }
+    }

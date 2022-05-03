@@ -1,0 +1,66 @@
+.section2{
+    margin-top:2%;
+    justify-content: space-evenly;
+    position:relative;
+    // background: yellow;
+    height:100%;
+    position:relative;
+    top:0;
+    
+}
+.skills-content{margin-top:5%;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color:$color-1;
+
+}
+.skill{
+    filter: drop-shadow(0px 10px 6px #000);
+    transition: ease-in-out .1s;
+    margin: 1% auto;
+    width:80%;
+    font-size: 5rem;
+    color:$color-1;
+    border-bottom: $color-1 solid;
+
+}
+
+.skillsText{
+    margin:auto;
+    transition: ease-in-out .3s;
+    color: whitesmoke;
+    font-size: 5rem;
+    width: 90%;
+
+    
+}
+.skillsText:hover{
+    text-shadow: 3px 2px 2px rgb(0, 166, 255);
+}
+.icon-div{
+    color:whitesmoke;
+    transition: ease .02s;
+}
+.icon-div:hover{
+    color: $color-1;
+    cursor: pointer;
+    transform: scale(1.1);
+    .icon-text{
+        color: $color-1;
+    }
+}
+.incon-div:hover .icon-text{
+    color: $color-1;
+}
+.icon-text{
+    color:whitesmoke;
+    margin:1%;
+    font-size:1rem;
+}
+@media only screen and (max-width: 1200px) {
+    .icon-text{
+        margin:2%;
+        font-size:1rem;
+    }
+}
