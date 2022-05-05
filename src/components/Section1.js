@@ -9,7 +9,11 @@ const Section1 = () => {
         <>
             <Navigation />
             <section className="section1">
+<<<<<<< HEAD
                 <h1 className="title">DevLinky</h1>              
+=======
+                <h1 className="title">DevLinky</h1>
+>>>>>>> bacf30e197bfd8f19e77ccd275005a7e2b539e14
                 <br />
                 <SocialNetwork />
                 <br />
