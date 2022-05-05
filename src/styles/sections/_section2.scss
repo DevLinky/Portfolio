@@ -1,5 +1,5 @@
 .section2{
-    margin-top:2%;
+    margin-top:3%;
     justify-content: space-evenly;
     position:relative;
     // background: yellow;
@@ -8,7 +8,7 @@
     top:0;
     
 }
-.skills-content{margin-top:5%;
+.skills-container{margin-top:5%;
     width:100%;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -26,7 +26,7 @@
 
 }
 
-.skillsText{
+.skills-text{
     margin:auto;
     transition: ease-in-out .3s;
     color: whitesmoke;
@@ -35,7 +35,7 @@
 
     
 }
-.skillsText:hover{
+.skills-text:hover{
     text-shadow: 3px 2px 2px rgb(0, 166, 255);
 }
 .icon-div{

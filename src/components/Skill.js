@@ -1,21 +1,23 @@
 import { FaReact, FaJs, FaNodeJs, FaSass, FaHtml5, FaCss3, FaGitAlt, FaDatabase } from 'react-icons/fa';
 import ReactTooltip from 'react-tooltip';
-import skillsData from "../data/tooltip-EN.json"
+import skillsDataEN from "../data/tooltip-EN.json"
+import skillsDataFR from "../data/tooltip-FR.json";
 
-const Skill = () => {
+
+const Skill = (props) => {
+
+    let skillsData;
+
+    props.language? skillsData=skillsDataEN : skillsData=skillsDataFR;
 
     return (
         <>
         <ReactTooltip place="top" effect="solid" multiline="true" wrapper="span"/>
             <div className="skill">
-            
                 <div className="icon-div"  data-tip={skillsData.HTML5}><FaHtml5 /></div>
                 <div className="icon-text" >HTML5</div>
-                
-
             </div>
-            <div className="skill">
-                
+            <div className="skill">               
                 <div className="icon-div" data-tip={skillsData.CSS3}><FaCss3 /></div>
                 <div className="icon-text">CSS3</div>
             </div>
@@ -43,9 +45,7 @@ const Skill = () => {
                 <div className="icon-div"  data-tip={skillsData.MONGO}><FaDatabase /></div>
                 <div className="icon-text">MongoDB</div>
             </div>
-
         </>
     )
-
 }
 export default Skill;

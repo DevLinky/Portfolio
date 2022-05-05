@@ -1,20 +1,23 @@
 import SocialNetwork from "./SocialNetworks";
-import Particles from 'react-tsparticles';
-import ParticlesBG from "./ParticlesBG";
 import Navigation from "./Navigation";
 import TypedMessage from "./TypedMessage";
+import english from "../data/english.json";
+import french from "../data/french.json";
 
-const Section1 = () => {
+const Section1 = (props) => {
+    
+
     return (
         <>
-            <Navigation />
+        
+            <Navigation  language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
             <section className="section1">
                 <h1 className="title">DevLinky</h1>
                 <br />
                 <SocialNetwork />
                 <br />
-                <button>CONTACT</button>
-                <TypedMessage />
+                <button>{props.langFile.contact}</button>
+                <TypedMessage langFile={props.langFile} />
             </section>
         </>
     )

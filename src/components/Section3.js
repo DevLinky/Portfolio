@@ -1,9 +1,9 @@
 import Navigation from "./Navigation";
 
-const Section3 = () => {
+const Section3 = (props) => {
     return(
         <>
-        <Navigation />
+        <Navigation language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
         <section className="section3">
         
         

@@ -1,12 +1,15 @@
 import React,{ Component } from 'react';
 import Typed from 'react-typed';
 
-const TypedMessage = () => {
+const TypedMessage = (props) => {
+    let typed1 = props.langFile.typedMessage.typed1;
+    let typed2 = props.langFile.typedMessage.typed2;
+
     return (
         <div className="typed-message">
             <Typed
-                strings={["<span style='color:whitesmoke'>Applications</span>",
-                "<span style='color:whitesmoke'>Websites</span>"]}
+                strings={[typed1,
+                    typed2]}
                 typeSpeed={60}
                 backSpeed={30}
                 loop

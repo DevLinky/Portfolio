@@ -1,15 +1,15 @@
 import Skill from "./Skill";
 import Navigation from "./Navigation";
 
-const Section2 = () => {
+const Section2 = (props) => {
     return(
         <>
-        <Navigation />
+        <Navigation language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
         <section className="section2">
-        <h2 className="skillsText">SKILLS</h2>
-            <div className="skills-content">
+        <h2 className="skills-text">SKILLS</h2>
+            <div className="skills-container">
                 
-                <Skill />
+                <Skill language={props.language}/>
                 
             </div>
         </section>
