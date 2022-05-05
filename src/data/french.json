@@ -1,5 +1,6 @@
 {
     "contact": "CONTACTER",
+    "skills:" : "COMPÉTENCES",
     "navigation": {
     "contact" :"Contacter",
     "projects" : "Projets",
@@ -9,8 +10,5 @@
     "typedMessage": {
     "typed1" : "<span style='color:whitesmoke'>Applications</span>",
     "typed2" : "<span style='color:whitesmoke'>Sites web</span>"
-    },
-    "Skills":{
-        "skills:" : "COMPÉTENCES"
     }
 }
