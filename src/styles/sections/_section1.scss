@@ -106,6 +106,7 @@ input{
     border: 5px solid $color-1;
     padding: 1%;
     cursor: pointer;
+    max-width:90%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -115,13 +116,14 @@ input{
     border-radius: 2px;
     color:whitesmoke !important;
     margin-top:30%;
-    font-size: 3.3rem;
+    font-size: 3rem;
     text-align: center;
     background-color: transparent;
     color: $color-1;
     border: 5px solid $color-1;
     padding: 1%;
     cursor: pointer;
+    max-width:90%;
   }
 }
 .changingText:hover{
