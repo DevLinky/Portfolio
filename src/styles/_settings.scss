@@ -43,6 +43,11 @@ html {
     overflow: hidden;
 
 }
+@media only screen and (max-width: 768px){
+  html{
+  height:100%;
+  overflow-x: hidden;
+}}
 body{
     // overflow:hidden;
     margin:0;
