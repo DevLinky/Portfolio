@@ -1,6 +1,7 @@
 .ParticlesBG{
     z-index:-10;
 }
+@media only screen and (max-width: 768px) {
 .section4{
     margin-top:3%;
     position:relative;
@@ -27,4 +28,63 @@
     transition: ease .2s;
     padding:2%;
     cursor:pointer;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+.section4{
+    margin-top:3%;
+    position:relative;
+    // background: yellow;
+    height:100%;
+    top:0;    
+}
+.contact-text{
+    z-index:99;
+    color:white;
+    font-size:2rem;
+    text-align:center;
+    word-wrap: break-word
+}
+.contact-container{
+    border-bottom: 2px solid $color-1;
+    text-align:center;
+    font-size:1rem;
+    margin:15% auto;
+
+    width:50%;
+    z-index:99;
+    position: relative;
+    transition: ease .2s;
+    padding:2%;
+    cursor:pointer;
+}
+}
+@media only screen and (min-width: 1201px){
+    .section4{
+        margin-top:3%;
+        position:relative;
+        // background: yellow;
+        height:100%;
+        top:0;    
+    }
+    .contact-text{
+        z-index:99;
+        color:white;
+        font-size:2rem;
+        text-align:center;
+        word-wrap: break-word
+    }
+    .contact-container{
+        border-bottom: 2px solid $color-1;
+        text-align:center;
+        font-size:1rem;
+        margin:5% auto;
+    
+        width:50%;
+        z-index:99;
+        position: relative;
+        transition: ease .2s;
+        padding:2%;
+        cursor:pointer;
+    }
 }
