@@ -12,7 +12,9 @@ const Section2 = (props) => {
                 <div className="skills-container">
                     <Skill language={props.language} />
                 </div>
+                <div className="empty-space">sqd</div>
             </section>
+            
         </>
     )
 }
