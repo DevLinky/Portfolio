@@ -19,6 +19,7 @@
 	background-color:$black;
 	
 	&__item{
+        transition: ease .2s;
         cursor:pointer;
         font-size: 1rem;
 		flex-grow:1;
@@ -30,6 +31,7 @@
 	}
 	&__item--active{
 		//dev
+        transition: ease .2s;
 		color:$color-1;
         font-weight: 400;
 	}

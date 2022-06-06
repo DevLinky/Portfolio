@@ -13,9 +13,9 @@
     "typed2" : "<span style='color:whitesmoke'>Websites</span>"
     },
     "alerts":{
-        "email": "Email address copied!",
-        "number": "Phone number copied!",
-        "discord": "Discord ID copied!"
+        "email": "Email address copied! (could be buggy if opened through a third party app)",
+        "number": "Phone number copied! (could be buggy if opened through a third party app)",
+        "discord": "Discord ID copied! (could be buggy if opened through a third party app)"
     }
         
 }
