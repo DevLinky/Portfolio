@@ -1,12 +1,4 @@
-.section2{
-    margin-top:3%;
-    justify-content: space-evenly;
-    // background: yellow;
-    height:135vh;
-    position:absolute;
-    top:0;
-    
-}
+
 .skills-container{
     margin-top:1%;
     width:100%;
@@ -16,7 +8,19 @@
     height:15vh;
 
 }
+.left-tooltip{
+    max-width: 40vw !important;
+}
 @media only screen and (max-width: 768px){
+    .section2{
+        margin-top:3%;
+        justify-content: space-evenly;
+        // background: yellow;
+        height:135vh;
+        position:absolute;
+        top:0;
+        
+    }
     .skills-container{
         margin-top:20%;
         width:100%;
@@ -50,6 +54,15 @@
 
 }
 @media only screen and (min-width: 769px){
+    .section2{
+        margin-top:3%;
+        justify-content: space-evenly;
+        // background: yellow;
+        height:100vh;
+        position:absolute;
+        top:0;
+        
+    }
     .skills-text{
         margin:auto;
         transition: ease-in-out .3s;

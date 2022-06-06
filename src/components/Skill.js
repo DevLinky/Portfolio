@@ -13,7 +13,7 @@ const Skill = (props) => {
     return (
         <>
         <ReactTooltip place="right" effect="solid" html={true} multiline="true" wrapper="div" id="right"/>
-        <ReactTooltip place="bottom" effect="solid" html={true} multiline="true" wrapper="div" id="left"/>
+        <ReactTooltip place="left" className="left-tooltip" effect="solid" html={true} multiline="true" wrapper="div" id="left"/>
             <div className="skill">
                 <div className="icon-div"  data-for="right"  data-tip={skillsData.HTML5}><FaHtml5 /></div>
                 <div className="icon-text" >HTML5</div>
