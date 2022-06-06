@@ -4,9 +4,11 @@ import TypedMessage from "./TypedMessage";
 import english from "../data/english.json";
 import french from "../data/french.json";
 import MobileNav from "./MobileNav";
+import { useNavigate } from "react-router";
+
 
 const Section1 = (props) => {
-    
+    const navigateContact = useNavigate();
 
     return (
         <>
@@ -17,7 +19,10 @@ const Section1 = (props) => {
                 <br />
                 <SocialNetwork />
                 <br />
-                <button>{props.langFile.contact}</button>
+                <button onClick={() => { 
+                    navigateContact('/contact');
+                    props.setSelectedTab('contact');
+                    }}>{props.langFile.contact}</button>
                 <TypedMessage langFile={props.langFile} />
             </section>
         </>
