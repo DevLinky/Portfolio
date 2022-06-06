@@ -1,6 +1,7 @@
 {
     "contact": "CONTACTER",
     "skills:" : "COMPÉTENCES",
+    "more" : "Plus à venir...",
     "navigation": {
     "contact" :"Contacter",
     "projects" : "Projets",
@@ -10,5 +11,10 @@
     "typedMessage": {
     "typed1" : "<span style='color:whitesmoke'>Applications</span>",
     "typed2" : "<span style='color:whitesmoke'>Sites web</span>"
+    },
+    "alerts":{
+        "email": "Adresse e-mail copiée!",
+        "number": "Numéro de téléphone copié!",
+        "discord": "Identifiant Discord copié!"
     }
 }

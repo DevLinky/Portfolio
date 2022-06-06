@@ -17,6 +17,15 @@ section{
     top:0;
     width:100%;
 }
+@media only screen and (max-width: 900px){
+    .title{
+        top:20%;
+        margin-top:10%;
+    position:relative;
+    font-size:15vw;
+    color:$color-1;
+    }
+}
 .title{
     margin-top:2%;
     margin-bottom:2%;
@@ -89,6 +98,22 @@ input{
     border-radius: 2px;
     color:whitesmoke !important;
     margin-top:33%;
+    font-size: 3.3rem;
+    text-align: center;
+    background-color: transparent;
+    color: $color-1;
+    border: 5px solid $color-1;
+    padding: 1%;
+    cursor: pointer;
+  }
+}
+@media only screen and (max-width: 768px) {
+    button{
+    transition: ease-in .05s;
+    font-weight: bold;
+    border-radius: 2px;
+    color:whitesmoke !important;
+    margin-top:50%;
     font-size: 3.3rem;
     text-align: center;
     background-color: transparent;

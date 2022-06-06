@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 1200px) {
+.mobile-bottom-nav{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:100;
+	
+	//give nav it's own compsite layer
+	will-change:transform;
+	transform: translateZ(0);
+	
+	display:flex;	
+	
+	height:75px;
+	
+	box-shadow: 0 -2px 5px -2px #333;
+	background-color:$white;
+	
+	&__item{
+        cursor:pointer;
+        font-size: 1rem;
+		flex-grow:1;
+		text-align:center;		
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+        color:$black;
+	}
+	&__item--active{
+		//dev
+		color:$color-1;
+        font-weight: 400;
+	}
+	&__item-content{ 
+		display:flex;
+		flex-direction:column;		
+	}
+}
+.icons{
+    font-size:1.5rem;
+}
+.language{
+    cursor:pointer;
+    position:fixed;
+    z-index:999;
+    top:0;
+    margin:2%;
+    font-size:2.2rem;
+}
+}

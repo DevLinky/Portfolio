@@ -27,15 +27,16 @@
         color: $color-1;
     }
     .language{
+        z-index:999;
         float:left;
     }
     }
     
     @media only screen and (max-width: 1200px) {
         .nav-container{
-            z-index:99;
+            z-index:-10;
             position:fixed;
-            bottom:0;
+            top:0;
             left:0;
             right:0;
             background-color: $color-2;
@@ -56,4 +57,5 @@
             display: inline;
             // background-color: red;
         }
+        
     }

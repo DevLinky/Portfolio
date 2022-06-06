@@ -8,7 +8,7 @@ import french from "./data/french.json";
 
 function App() {
   
-  
+  const [selectedTab, setSelectedTab] = useState('home')
   const [language, setLanguage] = useState(true)
   let langFile;
     language? langFile=english : langFile=french;
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div className="App">
-      <Routing language={language} setLanguage={setLanguage} langFile={langFile} />
+      <Routing language={language} setLanguage={setLanguage} langFile={langFile} selectedTab={selectedTab} setSelectedTab={setSelectedTab} />
       <ParticlesBG />
     </div>
   );
