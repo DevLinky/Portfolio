@@ -1,11 +1,10 @@
-
 .skills-container{
     margin-top:1%;
     width:100%;
     display:grid;
     grid-template-columns: 1fr 1fr;
     color:$color-1;
-    height:15vh;
+    height: auto;
 
 }
 .left-tooltip{
@@ -16,10 +15,10 @@
         margin-top:3%;
         justify-content: space-evenly;
         // background: yellow;
-        height:120vh;
+        height: 100vh;
         position:absolute;
         top:0;
-        
+        overflow: hidden;
     }
     .skills-container{
         margin-top:20%;
@@ -102,10 +101,10 @@
         margin-top:3%;
         justify-content: space-evenly;
         // background: yellow;
-        height:120vh;
+        height: 100vh;
         position:absolute;
         top:0;
-        
+        overflow: hidden;
     }
     .icon-text{
         margin:2%;

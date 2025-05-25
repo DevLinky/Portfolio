@@ -1,6 +1,4 @@
 import { useNavigate } from "react-router";
-import english from "../data/english.json";
-import french from "../data/french.json";
 
 
 const Navigation = (props) => {

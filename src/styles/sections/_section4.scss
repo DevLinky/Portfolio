@@ -4,10 +4,11 @@
 @media only screen and (max-width: 768px) {
 .section4{
     margin-top:3%;
-    position:relative;
+    position:absolute;
     // background: yellow;
-    height:100%;
-    top:0;    
+    height:100vh;
+    top:0;
+    overflow: hidden;
 }
 .contact-text{
     z-index:99;
@@ -33,10 +34,11 @@
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
 .section4{
     margin-top:3%;
-    position:relative;
+    position:absolute;
     // background: yellow;
-    height:100%;
-    top:0;    
+    height:100vh;
+    top:0;
+    overflow: hidden;
 }
 .contact-text{
     z-index:99;
@@ -62,10 +64,11 @@
 @media only screen and (min-width: 1201px){
     .section4{
         margin-top:3%;
-        position:relative;
+        position:absolute;
         // background: yellow;
-        height:100%;
-        top:0;    
+        height:100vh;
+        top:0;
+        overflow: hidden;
     }
     .contact-text{
         z-index:99;

@@ -1,8 +1,6 @@
 import SocialNetwork from "./SocialNetworks";
 import Navigation from "./Navigation";
 import TypedMessage from "./TypedMessage";
-import english from "../data/english.json";
-import french from "../data/french.json";
 import MobileNav from "./MobileNav";
 import { useNavigate } from "react-router";
 

@@ -1,6 +1,3 @@
-import { FaFacebookF, FaTwitter, FaGithub, FaLinkedinIn } from 'react-icons/fa';
-
-
 const SocialNetwork = () => {
     return(null
     // <ul class="social-networks bounce">
