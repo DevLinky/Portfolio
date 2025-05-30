@@ -1,5 +1,6 @@
 import Navigation from "./Navigation";
 import Project from "./Project";
+import ProjectArt from "./ProjectArt";
 import JaniakCreation from '../assets/Janiak-Creation.png';
 import QuestionMark from '../assets/Question-Mark.png'
 import MobileNav from "./MobileNav";
@@ -15,13 +16,13 @@ const Section3 = (props) => {
             <MobileNav selectedTab={props.selectedTab} setSelectedTab={props.setSelectedTab} language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
             <Navigation language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
             <section className="section3">
-                <Project img={JaniakCreation} title='Janiak-Creation' link="#" />
-                <Project img={Gallery1} link="#" />
-                <Project img={Gallery2} link="#" />
-                <Project img={Gallery3} link="#" />
-                <Project img={Gallery4} link="#" />
-                <Project img={Gallery5} link="#" />
-                <Project img={QuestionMark} title={props.langFile.more} link="#" />
+                <Project className="imgSite" img={JaniakCreation} title='Janiak-Creation' link="#" />
+                <ProjectArt className="imgArt" img={Gallery1} link="#" />
+                <ProjectArt className="imgArt" img={Gallery2} link="#" />
+                <ProjectArt className="imgArt" img={Gallery3} link="#" />
+                <ProjectArt className="imgArt" img={Gallery4} link="#" />
+                <ProjectArt className="imgArt" img={Gallery5} link="#" />
+                <Project className="imgArt" img={QuestionMark} title={props.langFile.more} link="#" />
             </section>
         </>
     )
