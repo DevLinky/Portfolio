@@ -13,8 +13,8 @@
     "typed2" : "<span style='color:whitesmoke'>Sites web</span>"
     },
     "alerts":{
-        "email": "Adresse e-mail copiée! (peut-être buggué si vous avez ouvert le site via une app tierse)",
-        "number": "Numéro de téléphone copié! (peut-être buggué si vous avez ouvert le site via une app tierse)",
-        "discord": "Identifiant Discord copié! (peut-être buggué si vous avez ouvert le site via une app tierse)"
+        "email": "Adresse e-mail copiée!",
+        "number": "Numéro de téléphone copié!",
+        "discord": "Identifiant Discord copié!"
     }
 }
