@@ -12,7 +12,7 @@ const Section1 = (props) => {
         <>
         <MobileNav language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} selectedTab={props.selectedTab} setSelectedTab={props.setSelectedTab}/>
             <Navigation  language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
-            <section className="section1">
+            <section className="home">
                 <h1 className="title">DevLinky</h1>
                 <br />
                 <SocialNetwork />

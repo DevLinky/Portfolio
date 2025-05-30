@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
-import Section1 from '../Section1';
-import Section2 from '../Section2';
-import Section3 from '../Section3';
-import Section4 from '../Section4';
+import Section1 from '../Home';
+import Section2 from '../Skills';
+import Section3 from '../Projects';
+import Section4 from '../Contact';
 
 const Index = (props) => {
     return( 
