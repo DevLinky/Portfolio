@@ -15,7 +15,7 @@ const Section3 = (props) => {
             <MobileNav selectedTab={props.selectedTab} setSelectedTab={props.setSelectedTab} language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
             <Navigation language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
             <section className="section3">
-                <Project img={JaniakCreation} title='Janiak-Creation' link="https://janiak-creation.herokuapp.com/" />
+                <Project img={JaniakCreation} title='Janiak-Creation' link="#" />
                 <Project img={Gallery1} title={props.langFile.more} link="#" />
                 <Project img={Gallery2} title={props.langFile.more} link="#" />
                 <Project img={Gallery3} title={props.langFile.more} link="#" />
