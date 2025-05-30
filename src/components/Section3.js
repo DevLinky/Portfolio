@@ -16,11 +16,11 @@ const Section3 = (props) => {
             <Navigation language={props.language} setLanguage={props.setLanguage} langFile={props.langFile} />
             <section className="section3">
                 <Project img={JaniakCreation} title='Janiak-Creation' link="#" />
-                <Project img={Gallery1} title={props.langFile.more} link="#" />
-                <Project img={Gallery2} title={props.langFile.more} link="#" />
-                <Project img={Gallery3} title={props.langFile.more} link="#" />
-                <Project img={Gallery4} title={props.langFile.more} link="#" />
-                <Project img={Gallery5} title={props.langFile.more} link="#" />
+                <Project img={Gallery1} link="#" />
+                <Project img={Gallery2} link="#" />
+                <Project img={Gallery3} link="#" />
+                <Project img={Gallery4} link="#" />
+                <Project img={Gallery5} link="#" />
                 <Project img={QuestionMark} title={props.langFile.more} link="#" />
             </section>
         </>
